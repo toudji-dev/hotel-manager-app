@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.box {
+    border: 1px solid #333333;
+    width: 350px;
+    height: 100px;
+    overflow: hidden;
+  }
